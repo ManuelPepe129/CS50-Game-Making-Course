@@ -19,9 +19,3 @@ _Nota: l'attractor deve funzionare anche col multiball - in qualche modo._
 * [ ] "I'm the firestarter": potevamo farci mancare una trappola da bestemmie vere? Implementate lo spawn casuale di un "qualcosa" (decidete voi cosa), alto come un mattone e largo la meta', che fino a che si trovera' sul campo sparera' ad intervalli regolari delle fireball nella direzione della racchetta. Toccare una fireball significa morte immediata! La trappola dovra reagire alle collisioni come un blocco e potra' sparire dopo un tot di colpi o di tempo. Bonus per chi fa lo sparo particolarmente infame - comunque vogliate!
 _Specifiche: ad ogni generazione di un livello, calcolate un valore S = math.random(30, 60). Ogni S rimbalzi, in quel livello, comparira' la torretta. Un rimbalzo si conta quando la racchetta tocca una pallina, o quando la racchetta muore (no palline). La torretta muore dopo 10 rimbalzi, o dopo essere stata colpita 5 volte._
 __WARNING__: i parametri sopra potrebbero essere aggiustati in futuro.
-
-* "AI is Back": Sfida "semplice": create una AI per il gioco. E ok.
-Ma non finisce qui: non sarebbe bello avere una bella compo tra chi "ce l'ha migliore"? Si puo' fare facilmente se:
-
-    * Rendete il generatore di livelli dipendente da un valore "seed" dato in input. A questo punto, il valore "123" generera' per tutti la stessa sequenza di livelli
-    * Implementate un contatore di quanto passa tra l'inizio e la fine di un livello, in secondi
